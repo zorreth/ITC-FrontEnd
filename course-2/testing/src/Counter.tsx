@@ -7,7 +7,9 @@ export function Counter() {
     <div>
       <p>Count is {counter}</p>
 
-      <button onClick={() => setCounter((c) => c + 1)}>Increment</button>
+      <button data-testid="123" onClick={() => setCounter((c) => c + 1)}>
+        Increment
+      </button>
     </div>
   );
 }

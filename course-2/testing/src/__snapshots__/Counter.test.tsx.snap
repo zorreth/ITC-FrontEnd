@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`counter button increments the count 1`] = `
+<div>
+  <div>
+    <p>
+      Count is 
+      2
+    </p>
+    <button
+      data-testid="123"
+    >
+      Increment
+    </button>
+  </div>
+</div>
+`;
